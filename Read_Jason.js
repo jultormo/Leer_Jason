@@ -23,8 +23,8 @@ function get_dates(){
 
             for(let item of newArr){
                 //console.log(item.id);
-                conten.innerHTML += `
-                <tr> 
+                conten.innerHTML += 
+                `<tr> 
                     <th>
                         ${item.id}
                     </th>
@@ -34,11 +34,7 @@ function get_dates(){
                     <th>
                     <img src="${item.url}" style = "width: 50px; height: 50px;"> 
                     </th>
-                    
-
-                </tr>
-                `
-
+                </tr>`;
             }
         }
     }
