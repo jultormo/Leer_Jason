@@ -19,7 +19,7 @@ function clik()
       {
         document.getElementById("contenido").innerHTML+=
         `<tr>
-          <td>${datos[i].id}</td>
+          <td>Hola${datos[i].id}</td>
           <td>${datos[i].title}</td>
           <td> <img src="${datos[i].url}"></td>
         </tr>`;
